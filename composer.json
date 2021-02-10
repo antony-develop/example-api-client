@@ -1,0 +1,25 @@
+{
+    "name": "antony-develop/example-api-client",
+    "license": "",
+    "type": "library",
+    "description": "API клиент для абстрактного (вымышленного) сервиса комментариев example.com",
+    "autoload": {
+        "psr-4": {
+            "ExampleApiClient\\": "src/ExampleApiClient/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ExampleApiClient\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.2",
+        "jms/serializer": "^3.11"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "phpunit/phpunit": "^9.5"
+    }
+}
