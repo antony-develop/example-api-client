@@ -1,6 +1,6 @@
 {
     "name": "antony-develop/example-api-client",
-    "license": "",
+    "license": "MIT",
     "type": "library",
     "description": "API клиент для абстрактного (вымышленного) сервиса комментариев example.com",
     "autoload": {
